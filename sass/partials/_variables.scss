@@ -1,30 +1,74 @@
 $backdrop__filter--privacy: blur(10px) contrast(25%);
 $bg__blend--type: multiply;
+$bg__about-img: "../img/children.jpg";
 $bg__classes:
     "error",
     "comingsoon",
-    "privacy";
+    "privacy",
+    "index",
+    "cause-thumb",
+    "causes",
+    "gallery",
+    "about",
+    "contact";
+$bg__causes-img:
+    "../img/children.jpg";
+$bg__cause-thumb-img:
+    "../img/causes/water.jpg",
+    "../img/causes/income.jpg",
+    "../img/causes/wildlife.jpg";
+$bg__contact-img: "../img/children.jpg";
 $bg__comingsoon-img: "../img/children.jpg";
 $bg__error-img: "../img/children.jpg";
+$bg__gallery-img: "../img/children.jpg";
+$bg__index-img: 
+    "../img/children.jpg",
+    "",
+    "",
+    "",
+    "../img/bgs/bg_1.jpg",
+    "",
+    "../img/bgs/bg_2.png";
 $bg__privacy-img: "../img/privacy.jpg";
 $bg__aoa:
     $bg__error-img,
     $bg__comingsoon-img,
-    $bg__privacy-img;
+    $bg__privacy-img,
+    $bg__index-img,
+    $bg__cause-thumb-img,
+    $bg__causes-img,
+    $bg__gallery-img,
+    $bg__about-img,
+    $bg__contact-img;
 $body__min-height: 100%;
+$border-param: 1px solid transparent;
 $border__top: 1px solid;
 $color__bg-1: #bbb;
 $color__dark: #333;
 $color__gray: #888;
+$color__light-gray: #dedede;
 $color__yellow: #ffd012;
+$color__silver: silver;
 $color__transparent: transparent;
 $color__white: #fff;
+$filter-grayscale: grayscale(1);
 $font-logo__family: 'Poppins';
 $font-logo__size: 32px;
 $font-main__family: 'Poppins';
 $font-main__size: 16px;
+$font-thin__weight: 100;
+$icon__font-size: 25px;
+$icon__font-size--big: 50px;
+$nav-menu__padding: 5px;
+$nav-item__padding-x:10px;
+$nav-item__padding-y:5px;
+$owl-dot__bg: $color__gray;
+$owl-dot__bg-active: $color__dark;
+$owl-dot__margin: 10px;
+$owl-dot__size: 15px;
 $privacy-container__border: 1px solid $color__bg-1;
 $privacy-container__margin: 50px;
 $privacy-container__radius: 20px;
 $section__min-height: 100vh;
 $text__shadow: 0 0 3px $color__dark;
+$text-small__size: 14px;
